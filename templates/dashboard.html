@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>{% block title %}{% endblock %}</title>
+ <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet" >
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid" style="background-color:black">
+    <a style="color:tan" class="nav-link disabled" href="/"><font size="+3"> Bidding System</font></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a style="color:white" class="nav-link active"  href="dashboard">Home</a>
+        </li>
+        <li class="nav-item">
+          <a style="color:white" class="nav-link" href="contact">Contact</a>
+        </li>
+           <li class="nav-item">
+          <a style="color:white"class="nav-link" href="about">Create bid</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a style="color:white" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Ongoing bids
+          </a>
+          <ul class="dropdown-menu">
+            <li><a style="color:black" class="dropdown-item" href="addingbid">Current bids</a></li>
+            <li><a style="color:black" class="dropdown-item" href="#">Removebid</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a  style="color:black" class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+           <li class="nav-item">
+          <a style="color:white" class="nav-link" href="/">Logout</a>
+        </li>
+
+      </ul>
+     <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+
+<ul id="myMenu">
+  <li><a href="about">Search</a></li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+
+<img src="https://img.freepik.com/free-vector/auction-isometric-design-concept_1284-67595.jpg?w=1380&t=st=1665827330~exp=1665827930~hmac=2d7b2eb5f464cadcbd826cd5d07b477a32448543da23c8dc3c11f32d6583da89" alt="Girl in a jacket" width="1650" height="350">
+
+
+<div>
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 10%;"> <img src="https://media.istockphoto.com/id/1194209555/vector/auction-online-vector-concept-for-web-banner-website-page.jpg?s=612x612&w=0&k=20&c=iKRTYOYmA1a4yE0Gy4a3Cx3W8qTgUdZvDWAOygT1IkY=" /></td>
+<td style="width: 80%;">
+<h3>Bidding is an offer to set a price tag by an individual or business for a product or service or a demand that something be done. Bidding is used to determine the cost or value of something. Bidding can be performed by a person under influence of a product or service based on the context of the situation.
+  The bidding process is used to select a vendor for subcontracting a project, or for purchasing products and services that are required for a project. Bid records contain the specifications of the project or details of the products and services to be purchased.</h3>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<center><h1>How to bid:</h1></center>
+<div>
+<table style="width: 100%;">
+<tbody>
+<tl>
+<td style="width: 10%;"> <img src="https://media.istockphoto.com/id/896863486/vector/hands-holding-auction-paddle-and-hammer.jpg?s=612x612&w=0&k=20&c=veANEObNCQqtU1gARXYed13XPvvbXWYkY7OusQ8uOuc=" /></td>
+<td style="width: 50%;">
+  <h3>Step 1: Find the right bid for your business.</h3>
+  <h3>Step 2: Planning and research.</h3>
+  <h3>Step 3: Price your services right.</h3>
+  <h3>Step 4: Write a high-quality bid response.</h3>
+  <h3>Step 5: Submit your bid.</h3>
+</td>
+</tl>
+</tbody>
+</table>
+</div>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" >
+
+</script>
+</body>
+</html>

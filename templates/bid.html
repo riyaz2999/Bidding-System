@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+</style>
+</head>
+
+<h1>Money based bid</h1>
+
+<from>
+
+<div class="container">
+  <img src="https://www.reviewgeek.com/p/uploads/2022/03/8e4c444b.jpg?height=200p&trim=2,2,2,2&crop=16:9"  class="image">
+
+
+  <div class="text_field">
+    <from><input type="text" id="b8price"placeholder="Enter bid amount" name="lname" value=""></from>
+  </div>
+  <form action="/bidbutton" method="post">
+  <input type="submit" value="Bid"></input></form>
+</div>
+
+<div style = "position:fixed; left:600px; bottom:250px;"class="container">
+  <img src="https://m.media-amazon.com/images/I/81Rref5xsPL._UX500_.jpg"  class="image">
+
+
+  <div class="text_field">
+    <from><input type="text" id="b7price"placeholder="Enter bid amount" name="lname"></from>
+  </div>
+  <form action="/bidbutton" method="post">
+  <input type="submit" value="Bid"></input></form>
+</div>
+
+<div style = "position:fixed; left:600px; bottom:450px;"class="container">
+  <img src="https://stat.overdrive.in/wp-content/odgallery/2018/05/42109_Kawasaki-Ninja-H2R_009_468x263.jpg"  class="image">
+
+
+  <div class="text_field">
+   <from><input type="text" id="b6price"placeholder="Enter bid amount" name="lname" ></from>
+  </div>
+  <form action="/bidbutton" method="post">
+  <input type="submit" value="Bid"></input></form>
+</div>
+
+<div class="container">
+  <img src="https://images.solecollector.com/complex/images/c_crop,h_939,w_1669,x_23,y_0/c_fill,dpr_2.0,f_auto,fl_lossy,q_auto,w_680/ghhmxtpwscxdaoiakkei/2016-nike-mag-back-to-the-future-shoes"  class="image">
+
+
+  <div class="text_field">
+    <from><input type="text" id="b5price"placeholder="Enter bid amount" name="lname" ></from>
+  </div>
+  <form action="/bidbutton" method="post">
+  <input type="submit" value="Bid"></input></form>
+</div>
+
+<div class="container">
+  <img src="https://i.pinimg.com/550x/7c/f6/1f/7cf61f499b5ab13d48d45c244ac7d217.jpg"  class="image">
+
+
+  <div class="text_field">
+    <from><input type="text" id="b4price"placeholder="Enter bid amount" name="lname"></from>
+  </div>
+  <form action="/bidbutton" method="post">
+  <input type="submit" value="Bid"></input></form>
+</div>
+
+<div style = "position:fixed; left:600px; bottom:50px; "class="container">
+  <img src="https://wristadvisor.com/wp-content/uploads/2021/12/Rolex-Watches-For-Men.jpg"  class="image">
+
+
+  <div class="text_field">
+    <from><input type="text" id="b3price"placeholder="Enter bid amount" name="lname"></from>
+  </div>
+  <form action="/bidbutton" method="post">
+  <input type="submit" value="Bid"></input></form>
+</div>
+
+<div style = "position:fixed; left:1100px; bottom:450px; "class="container">
+  <img src="https://www.carscoops.com/wp-content/uploads/2015/09/2016-Chevrolet-Camaro-SS-0.jpg"  class="image">
+
+
+  <div class="text_field">
+    <from><input type="text" id="b2price" name="lname"placeholder="Enter bid amount"></from>
+  </div>
+  <form action="/bidbutton" method="post">
+  <input type="submit" value="Bid"></input></form>
+</div>
+
+
+<div style = "position:fixed; left:1100px; bottom:240px; "class="container">
+  <img src="https://www.nicekicks.com/files/2017/02/the-shoe-surgeon-air-jordan-1-dj-khaled.jpg"  class="image">
+
+
+  <div class="text_field">
+    <from><input type="text" id="b1price" name="l1name"  placeholder="Enter bid amount"></from></input>
+  </div>
+  <<form action="/bidbutton" method="post">
+  <input type="submit" value="Bid"></input></form>
+</div>
+
+<div style = "position:fixed; left:1100px; bottom:20px; "class="container">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSsOrXtZl0eJi1CP9mPZLe2DhHqX49W8xbMA&usqp=CAU"  class="image">
+  <div class="text_field">
+    <from><input type="text" id="bprice" name="l1name"  placeholder="Enter bid amount"></from></input>
+  </div>
+<form action="/bidbutton" method="post">
+  <input type="submit" value="Bid"></input></form>
+</div>
+</from>
+  </div>
+</div>
+</html>
